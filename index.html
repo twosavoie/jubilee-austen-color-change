@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<!-- the head tag holds information about your site including the title, where to find the CSS stylesheets, and links to Google Fonts -->
+
+<head>
+    <!-- N: the charset should be defined in the boilerplate-->
+    <meta charset="utf-8">
+    <!-- change the title to Jubilee Austen | Portfolio -->
+    <!-- N: we'll use the changing of title as a check that the directory in the text editor is open in the browser -->
+    <title>Jubilee Austen | Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
+</head>
+<!-- the body tag wraps all of the content of the page -->
+
+<body>
+    <!-- 1: start by defining the major parts of the page: the <header>, <main>, and <footer> -->
+    <!-- wrap the <header> and <footer> in a div with the class of content-wrapper -->
+    <!-- <code></code> just in case I need it -->
+    <header>
+        <div class="content-wrapper">
+            <!-- 5: Start adding the text content, beginning with the header and working your way down the page. Since this is content, copy/paste is your friend. -->
+            <!-- N: the annotated png needs an update like what is an h1, h2... and that they can copy/paste-->
+            <h1>Jubilee Austen</h1>
+            <nav>
+                <!-- nav is a semantic tag specifying there will be links that help you navigate the site-->
+                <!-- add ids to each section and hrefs to link to them -->
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <h2><span>Hi,</span> I'm a developer that loves clean & elegant code.</h2>
+        </div>
+    </header>
+    <main>
+        <!-- 2: divide the <main> into two <section>s: about and work -->
+        <!-- wrap the content of the about and work sections with a div with the class of content-wrapper -->
+        <section id="about">
+            <div class="content-wrapper">
+                <h2>A little bit about me.</h2>
+                <p>I've made my home base in Providence, Rhode Island, with my small growing family. My journey into
+                    tech
+                    started with a degree in journalism. As I started sharing my writing online, I was fascinated with
+                    how
+                    easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to
+                    fit
+                    my own specific needs.</p>
+                <p>That curiosity then opened a door that could never be shut. When I learned how to build my first
+                    website,
+                    I realized I found something that gave me the freedom & versatility I was looking for in my work.
+                    Now
+                    I've made a full switch to front-end development, where I can use my organization skills and eye for
+                    detail to write clean, elegant code.</p>
+            </div>
+        </section>
+        <section id="work">
+            <div class="content-wrapper">
+                <!-- 3: divide the work section into three columns, all with the same class -->
+                <div class="skill">
+                    <img src="img/file-code.png" alt="html icon">
+                    <h3>Hand-Coded HTML</h3>
+                    <p>My focus is writing clean, well formatted, semantic HTML5 by hand to make sure that the content
+                        is
+                        easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+                </div>
+                <div class="skill">
+                    <img src="img/css3.png" alt="css icon">
+                    <h3>Well-Organized CSS</h3>
+                    <p>I pride myself on writing CSS that is easy to read and build on. I keep my CSS lean
+                        and
+                        fast to load, and I make it a habit to stay up to date on current best-practices.</p>
+                </div>
+                <div class="skill">
+                    <img src="img/pencil-alt.png" alt="pencil icon">
+                    <h3>Ease Converting Designs into Code</h3>
+                    <p>You can trust me to take a professional design and style guide and quickly and accurately convert
+                        it into a webpage that
+                        is a
+                        pixel perfect match.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="content-wrapper">
+            <!-- 4: divide the footer into two: the figure and the contact information -->
+            <!-- N: maybe we use figure maybe div -->
+            <div class="contact-image">
+                <img src="img/pexels-andrea-piacquadio-3769021.jpg" alt="woman using a computer" id="contact-img"
+                    title="this is the title/copyright">
+            </div>
+            <div class="contact-info">
+                <h2>Like what you see?</h2>
+                <h3 id="email-header">Let's meet for a cup of coffee.</h3>
+                <a href="mailto:me@jubileeausten.com"><img src="img/envelope.png" alt="envelope icon" id="envelope">hi
+                    [@]
+                    jubileeausten.com</a>
+                <h3 id="socialmedia-header">Or, find me on the interwebs</h3>
+                <ul>
+                    <li><a href=""><img src="img/twitter.png" alt="Twitter icon"></a></li>
+                    <li><a href=""><img src="img/facebook-f.png" alt="Facebook icon"></a></li>
+                    <li><a href=""><img src="img/instagram.png" alt="Instagram icon"></a></li>
+                    <li><a href=""><img src="img/linkedin-in.png" alt="LinkedIn icon"></a></li>
+                    <li><a href=""><img src="img/github.png" alt="GitHub icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+/* try an obvious background color to make sure the CSS is linked to the HTML 
+body {
+    backgrounc-color: red;
+} */
+/* set the global default styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #47525d;
+    color: #5e5d5e;
+}
+
+/* set a width to the site, center it, and clear any floats from previous sections */
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* header */
+header {
+    height: 800px;
+    background: url('../img/full-background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    float: left;
+    width: 30%;
+    width: 300px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    color: #9b9f6e;
+    padding: 65px 0 65px 25px;
+}
+
+header nav {
+    width: 60%;
+    width: 700px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    color: #817f80;
+    padding-left: 80px;
+}
+
+header h2 {
+    width: 90%;
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #7b8c9d;
+    color: #9b9b9b;
+    color: #817f80;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color: #47525d;
+    color: #5e5d5e;
+}
+
+/* about */
+#about .content-wrapper {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    float: left;
+    width: 40%;
+    width: 500px;
+    font-size: 21px;
+    /*   color: #7f7f7f; */
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* work */
+#work {
+    background-color: #f9f4f5;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#work .content-wrapper {
+    padding: 115px 0;
+}
+
+#work .skill {
+    float: left;
+    width: 33%;
+    width: 400px;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 48%;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/* contact */
+#contact {
+    background-color: #fff1f1;
+    background-color: #f9d4d4; /* this is also very pretty */
+    background-color: #f9e9e9; /* i like this one */ 
+}
+
+#contact .content-wrapper {
+    padding: 110px 0;
+}
+
+/* wrapping the image in a div or figure tag so that margin-left and border can be added without the image overflowing the space. Could redesign this completely */
+#contact .contact-image,
+#contact .contact-info {
+    float: left;
+    width: 50%;
+    width: 600px;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    width: 500px;
+}
+
+#contact h2,
+#contact #email-header,
+#contact #socialmedia-header,
+#contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: "Lora", serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #d77777;
+    color: #ca4949;
+    color: #742f74;
+    color: #f16059;
+    color: #5c255c;
+    color: #B63636;
+    color: #481b48;
+    color: #B56167;
+    color: #5e5d5e;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
