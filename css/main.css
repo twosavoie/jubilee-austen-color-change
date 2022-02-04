@@ -32,6 +32,8 @@ header h1 {
     font-size: 30px;
     color: #bbc085;
     color: #9b9f6e;
+    color: #7f835a;
+    color: #7b7e54;
     padding: 65px 0 65px 25px;
 }
 
@@ -53,6 +55,7 @@ nav ul li a {
     font-size: 18px;
     color: #828282;
     color: #817f80;
+    color: #7c7a7c;
     padding-left: 80px;
 }
 
